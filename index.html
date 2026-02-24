@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PROMISE TILL DEATH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>PROMISE TILL DEATH</h1>
+  <p>A story of friendship beyond time</p>
+</header>
+
+<section class="pdf-section">
+  <h2>Read in Your Language</h2>
+
+  <div class="pdf-card">
+    <h3>English</h3>
+    <iframe src="C:\Users\Acer\Downloads\PPT front.pdf"></iframe>
+  </div>
+
+  <div class="pdf-card">
+    <h3>Telugu</h3>
+    <iframe src="C:\Users\Acer\Downloads\PROMISE TILL DEATH.pdf"></iframe>
+  </div>
+
+  <div class="pdf-card">
+    <h3>Hindi</h3>
+    <iframe src="C:\Users\Acer\Downloads\front paper.pdf"></iframe>
+  </div>
+</section>
+
+<!-- Hidden Admin Trigger -->
+<div class="admin-trigger" onclick="openAdmin()"></div>
+
+<!-- Admin Dashboard -->
+<div id="adminPanel" class="admin-panel">
+  <h2>Admin Dashboard</h2>
+  <p>Total Visitors:</p>
+  <h1 id="visitorCount">Loading...</h1>
+  <button onclick="closeAdmin()">Close</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
